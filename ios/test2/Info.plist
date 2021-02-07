@@ -25,6 +25,13 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
+	<key>NSPhotoLibraryUsageDescription</key>
+    <string>$(test2) would like access to your photo gallery</string>
+    <key>NSCameraUsageDescription</key>
+    <string>$(test2) would like to use your camera</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>$(test2) would like to save photos to your photo gallery</string>
+
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
